@@ -1,0 +1,52 @@
+.ecosystem-box {
+    text-align: center;
+    background-color: #53B5CB1A;
+    padding: 1rem;
+    /* margin: 1rem; */
+    border-radius: 1rem;
+    height: 330px;
+    flex-direction: column;
+    display: flex
+}
+
+.container {
+    padding: 3rem;
+}
+
+.eco-section{
+    padding-bottom: 10rem;
+}
+.ecosystem-box-img-container {
+    margin: 10px;
+    height: 115px;
+    line-height: 115px;
+    text-align: center;
+}
+.resize_fit_center {
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 8rem !important;
+    margin-bottom: 0 !important;
+    /* line-height: 1 !important; */
+}
+
+.p-heading {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+    font-size: 3rem !important;
+    margin-bottom: 0 !important;
+    line-height: 1 !important;
+}

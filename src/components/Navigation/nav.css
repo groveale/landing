@@ -1,0 +1,152 @@
+/* Header */
+header {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    background: transparent !important;
+  }
+
+.project-nav {
+    visibility: visible;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    background: transparent !important;
+  }
+
+  .footer-nav {
+    background: transparent !important;
+  }
+
+.launch-button {
+  background-image: linear-gradient(to right, #53B5CB, #A32EFC);
+  border-radius: .25rem;
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+}
+
+
+  
+  @media (max-width: 1199.98px) {
+    header {
+      top: 0;
+    }
+  }
+
+  header .navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    background: transparent !important;
+    position: relative;
+  }
+  
+.navbar-logo {
+    width: 50%;
+    padding: 10px;
+    padding-top: 20px;
+  }
+
+.nav-menu,
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none; 
+  line-height: 20px;}
+
+.nav-menu ul {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  z-index: 99;}
+
+.nav-menu li {
+  position: relative;
+  white-space: nowrap; }
+
+.nav-menu > li {
+  float: left; }
+
+.nav-menu li:hover > ul,
+.nav-menu li.sfHover > ul {
+  display: block; }
+
+.nav-menu ul ul {
+  top: 0;
+  left: 100%; }
+
+.nav-menu ul li {
+  min-width: 180px;
+  text-align: left; }
+
+  .navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+  
+/* Nav Meu Styling */
+
+.nav-menu a {
+    margin: 0 -2px;
+    text-decoration: none;
+    display: inline-block;
+    color: #000000 !important;
+    font-size: 11px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;}
+
+.landing a {
+      margin: 0 -2px;
+      text-decoration: none;
+      display: inline-block;
+      color: #ffffff !important;
+      font-size: 11px;
+      font-family: "Montserrat", sans-serif;
+      text-transform: uppercase;
+      padding: 0.5rem 1rem;
+      letter-spacing: 0.1rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+.back-link {
+  color: black !important;
+}
+
+@media only screen and (max-width: 990px) {
+  .landing a {
+    margin: 0 -2px;
+    text-decoration: none;
+    display: block;
+    color: #ffffff !important;
+    font-size: 11px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    text-align: end;}
+
+    .nav-menu a {
+      margin: 0 -2px;
+      text-decoration: none;
+      display: block;
+      color: #000000 !important;
+      font-size: 11px;
+      font-family: "Montserrat", sans-serif;
+      text-transform: uppercase;
+      padding: 0.5rem 1rem;
+      letter-spacing: 0.1rem;
+      font-weight: 700;
+      text-align: end;
+    }
+}
+  
